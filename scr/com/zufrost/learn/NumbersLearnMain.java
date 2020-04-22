@@ -1,5 +1,7 @@
 package com.zufrost.learn;
 
+import java.math.BigDecimal;
+
 import static java.lang.Integer.decode;
 
 public class NumbersLearnMain {
@@ -20,6 +22,10 @@ public class NumbersLearnMain {
         System.out.println(decode("152"));
         System.out.println(s.toString());
         System.out.println(Math.pow(12344, 12344));
+
+        System.out.println(0.1+0.2);
+
+        System.out.println(new BigDecimal("0.1").add(new BigDecimal("0.2")));
 
 
     }
